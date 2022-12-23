@@ -88,16 +88,16 @@ h1 {
     font-weight: 100;
     font-style: normal;
     color: getColor(theRed);
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 h2 {
 font-family: museo-slab,
 serif;
-font-weight: 500;
+font-weight: 100;
 font-style: normal;
 color: getColor(theRed);
-font-size: 1.5vw;
+font-size: 2vw;
 
 
 }
@@ -194,10 +194,6 @@ align-items: flex-start;
 }
 .flex__top--v {
 justify-content: flex-start;
-}
-
-.margin__top--2vw {
-    margin-top: 2vw;
 }
 
 .padding__left--2vw {

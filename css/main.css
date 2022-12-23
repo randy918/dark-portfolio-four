@@ -46,10 +46,10 @@ h1 {
 
 h2 {
   font-family: museo-slab, serif;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
   color: rgb(194, 47, 51);
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .grid__container {
@@ -117,6 +117,10 @@ h2 {
 
 .flex__top--v {
   justify-content: flex-start;
+}
+
+.margin__top--2vw {
+  margin-top: 2vw;
 }
 
 .padding__left--2vw {
