@@ -31,6 +31,27 @@ body::-webkit-scrollbar {
   width: 12px;
 }
 
+@font-face {
+  font-family: museo, serif;
+  font-weight: 100;
+  font-style: normal;
+}
+h1 {
+  font-family: museo-slab, serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(194, 47, 51);
+  font-size: 4vw;
+}
+
+h2 {
+  font-family: museo-slab, serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(194, 47, 51);
+  font-size: 2vw;
+}
+
 .grid__container {
   display: grid;
   width: 95vw;
@@ -48,9 +69,15 @@ body::-webkit-scrollbar {
   flex: 1;
 }
 
+.flex__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .grid__header {
   grid-area: header;
-  background-color: rgb(33, 33, 33);
 }
 
 .grid__display {
@@ -61,7 +88,8 @@ body::-webkit-scrollbar {
 
 .grid__sidebar {
   grid-area: sidebar;
-  min-width: 100px; /* Set value to whatever you want */
+  min-width: 100px;
+  /* Set value to whatever you want */
 }
 
 .grid__portfolio-a {
@@ -83,10 +111,20 @@ body::-webkit-scrollbar {
   padding: 1rem;
 }
 
-.flex__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.flex__left--h {
+  align-items: flex-start;
+}
+
+.flex__top--v {
+  justify-content: flex-start;
+}
+
+.padding__left--2vw {
+  padding-left: 2vw;
+}
+
+.padding__top--2vw {
+  padding-top: 2vw;
 }
 
 @media screen and (max-width: 800px) {
