@@ -89,7 +89,6 @@ h2 {
 .grid__sidebar {
   grid-area: sidebar;
   min-width: 100px;
-  /* Set value to whatever you want */
 }
 
 .grid__portfolio-a {
@@ -101,6 +100,7 @@ h2 {
 }
 .grid__portfolio-c {
   grid-area: portfolio-c;
+  padding: 4vw;
 }
 .grid__portfolio-d {
   grid-area: portfolio-d;
@@ -139,6 +139,9 @@ h2 {
   .grid__portfolio-b {
     padding: 1rem;
     display: none;
+  }
+  .grid__portfolio-c {
+    padding: 6vw;
   }
   .grid__portfolio-d {
     padding: 1rem;

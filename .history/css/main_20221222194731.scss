@@ -143,30 +143,35 @@ font-size: 1.5vw;
     grid-area: display;
     align-items: center;
     max-height: 100%;
+
 }
 
 .grid__sidebar {
     grid-area: sidebar;
     min-width: 100px;
-  }
+    /* Set value to whatever you want */
+
+}
 
 .grid__portfolio {
     &-a {
         grid-area: portfolio-a;
         padding: 2vw;
+
     }
 
     &-b {
+
         grid-area: portfolio-b;
     }
 
     &-c {
-        grid-area: portfolio-c;
-        padding: 4vw;
 
+        grid-area: portfolio-c;
     }
 
     &-d {
+
         grid-area: portfolio-d;
     }
 }
@@ -222,9 +227,7 @@ padding-top: 2vw;
             display: none;
         }
 
-        &-c {
-              padding: 6vw;
-        }
+        &-c {}
 
         &-d {
             padding: 1rem;

@@ -143,12 +143,13 @@ font-size: 1.5vw;
     grid-area: display;
     align-items: center;
     max-height: 100%;
+
 }
 
 .grid__sidebar {
     grid-area: sidebar;
     min-width: 100px;
-  }
+    /* Set value to whatever you want */}
 
 .grid__portfolio {
     &-a {
@@ -162,8 +163,6 @@ font-size: 1.5vw;
 
     &-c {
         grid-area: portfolio-c;
-        padding: 4vw;
-
     }
 
     &-d {
@@ -222,9 +221,7 @@ padding-top: 2vw;
             display: none;
         }
 
-        &-c {
-              padding: 6vw;
-        }
+        &-c {}
 
         &-d {
             padding: 1rem;
