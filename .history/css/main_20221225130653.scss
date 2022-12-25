@@ -231,13 +231,13 @@ padding-top: 56.25%;
 
 }
 .responsive-iframe-site-container__child {
-  transform: scale(0.35, 0.35);
+  transform: scale(0.35, 0.25);
 
 position: absolute;
-top: -22vw;
-left: -17.5vw;
-width: 220%;
-height: 220%;
+top: 0;
+left: 0;
+width: 200%;
+height: 100%;
 border: 0;
 
 

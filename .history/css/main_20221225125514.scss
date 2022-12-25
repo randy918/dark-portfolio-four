@@ -204,40 +204,31 @@ padding-top: 2vw;
 
 //!  122422.0829        VIDEO VIMEO IFRAME
 
+.videowrapper4 {
 
 
-.responsive-iframe-video-container__parent {
+}
+
+.embed-container {
+
+
+}
+
+.responsive-iframe-container__parent {
+
 position: relative;
 overflow: hidden;
 padding-top: 56.25%;
 
 }
-.responsive-iframe-video-container__child {
+.responsive-iframe-container__child {
+  transform: scale(0.5, 0.5);
 
 position: absolute;
 top: 0;
-left: 0;
-width: 100%;
+left: -w0vw;
+width: 200%;
 height: 100%;
-border: 0;
-
-
-}
-.responsive-iframe-site-container__parent {
-
-position: relative;
-overflow: hidden;
-padding-top: 56.25%;
-
-}
-.responsive-iframe-site-container__child {
-  transform: scale(0.35, 0.35);
-
-position: absolute;
-top: -22vw;
-left: -17.5vw;
-width: 220%;
-height: 220%;
 border: 0;
 
 
