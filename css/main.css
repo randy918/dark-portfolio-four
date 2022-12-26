@@ -156,9 +156,9 @@ h2 {
   transform: scale(0.35, 0.35);
   position: absolute;
   top: -22vw;
-  left: -17.5vw;
+  left: -17vw;
   width: 220%;
-  height: 220%;
+  height: 225%;
   border: 0;
 }
 
